@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:telehealth_app/pages/chat_page.dart';
 import '../pages/home_page.dart';
 import '../pages/appointment_page.dart';
 
@@ -30,7 +31,7 @@ class NavigationControllerState extends State<NavigationController> {
   final List<Widget> _pages = [
     const HomePage(),
     const AppointmentPage(),
-    const Placeholder(), // Chat page placeholder
+    const ChatPage(), // Use our ChatPage instead of Placeholder
     const Placeholder(), // Profile page placeholder
   ];
 
